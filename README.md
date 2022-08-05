@@ -87,6 +87,8 @@ I like keeping familiar conventions wherever possible, so src contains everythin
     ├── /views
     ├── index.js
     └── App.js
+    
+    
 I can see some additional folders you might have, such as types if it's a TypeScript project, middleware if necessary, maybe context for Context, etc.
 
 Aliases
@@ -165,6 +167,8 @@ The services directory is less essential than components, but if you're making a
         │   ├── LocalStorage.service.js
         │   └── LocalStorage.test.js
         └── index.js
+        
+        
 An example of the service:
 
 src/services/LocalStorage/LocalStorage.service.js
@@ -213,6 +217,8 @@ Whether or not your project needs a utils folder is up to you, but I think there
             ├── validation.helpers.js
             ├── currency.helpers.js
             └── array.helpers.js
+            
+            
 Again, the utils folder can contain anything you want that you think makes sense to keep on a global level. If you don't prefer the "multi-tier" filenames, you could just call it validation.js, but the way I see it, being explicit does not take anything away from the project, and makes it easier to navigate filenames when searching in your IDE.
 
 Views
@@ -247,6 +253,8 @@ The advantage of keeping everything domain-focused instead of putting all your p
             └── LoginForm
                 ├── LoginForm.js
                 └── LoginForm.test.js
+                
+                
 Keeping everything within folders might seem annoying if you've never set up your project that way - you can always keep it more flat, or move tests to its own directory that mimics the rest of the app.
 
 Conclusion
