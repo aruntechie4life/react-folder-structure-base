@@ -38,11 +38,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-#################################################################################################
+####################################################################################
 
 React Architecture: How to Structure and Organize a React Application
 
-#################################################################################################
+#####################################################################################
 
 There is no consensus on the right way to organize a React application. React gives you a lot of freedom, but with that freedom comes the responsibility of deciding on your own architecture. Often the case is that whoever sets up the application in the beginning throws almost everything in a components folder, or maybe components and containers if they used Redux, but I propose there's a better way. I like to be deliberate about how I organize my applications so they're easy to use, understand, and extend.
 
